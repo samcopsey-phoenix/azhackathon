@@ -38,7 +38,7 @@ With an on-premises datacenter, you’re responsible for everything. With cloud 
 
 The following diagram highlights how the Shared Responsibility Model informs who is responsible for what, depending on the cloud service type.
 
-![Shared Responsibility Model](pics/sharedmodel.jpeg)
+![Shared Responsibility Model](../pics/sharedmodel.jpeg)
 
 When using a cloud provider, you’ll always be responsible for:
 
@@ -68,7 +68,7 @@ Microsoft Azure is a cloud computing platform and service created by Microsoft, 
 - Integration with Microsoft products
 - Strong security and compliance
 
-![Azure Global Data Centers](https://example.com/azure-data-centers.png)
+![Azure Global Data Centers](../pics/azuredatacentre.jpg)
 
 ## Why Use Azure?
 ### Benefits:
@@ -77,7 +77,7 @@ Microsoft Azure is a cloud computing platform and service created by Microsoft, 
 - **Flexibility:** Support for various programming languages, frameworks, and tools.
 - **Reliability:** High availability and redundancy.
 
-![Benefits of Cloud Computing](https://example.com/cloud-benefits.png)
+![Benefits of Cloud Computing](../pics/benefits.png)
 
 ## Real-World Examples of Cloud Computing
 ### Examples:
@@ -85,7 +85,7 @@ Microsoft Azure is a cloud computing platform and service created by Microsoft, 
 - **Dropbox:** Provides cloud storage services for documents, photos, and videos.
 - **Online Gaming:** Games like Fortnite run on cloud infrastructure to handle massive amounts of players.
 
-![Cloud Services Examples](https://example.com/cloud-examples.png)
+![Cloud Services Examples](../pics/examples.png)
 
 ## Discussion/Q&A
 ### Questions:
