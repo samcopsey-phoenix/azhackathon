@@ -5,7 +5,7 @@ Welcome to the Azure Hackathon! This guide will walk you through the basics of c
 ## Steps
 
 1. [Introduction to Cloud Computing and Azure](https://samcopsey-phoenix.github.io/azhackathon/step1)
-2. [Creating an Azure Account](https://samcopsey-phoenix.github.io/azhackathon/step2)
+2. [Creating an Azure User Account](https://samcopsey-phoenix.github.io/azhackathon/step2)
 3. [Deploying a Web App on Azure](https://samcopsey-phoenix.github.io/azhackathon/step3)
 4. [Understanding Storage in Azure](https://samcopsey-phoenix.github.io/azhackathon/step4)
 5. [Creating a Virtual Machine](https://samcopsey-phoenix.github.io/azhackathon/step5)
