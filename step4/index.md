@@ -3,6 +3,11 @@
 ## Objective:
 Learn about Azure storage options and how to use them.
 
+## Describe Azure Storage
+[Azure learn video](https://www.microsoft.com/en-us/videoplayer/embed/RE4MAbS?postJsllMsg=true)
+
+<iframe width="560" height="315" src="https://www.microsoft.com/en-us/videoplayer/embed/RE4MAbS?postJsllMsg=true" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Steps:
 
 1. **Navigate to "Storage Accounts" in the Azure portal.**
