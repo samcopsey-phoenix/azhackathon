@@ -99,8 +99,6 @@ Learn about Azure storage options and how to use them.
    - After uploading, you can see the file listed in your container.
    - Click on the file to view its URL, which you can use to access the file from a web browser.
 
-![Azure Blob Storage](https://example.com/azure-blob-storage.png)
-
 ## Helpful Resources:
 - [Quickstart: Upload, download, and list blobs with the Azure portal](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal)
 - [Azure Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/)

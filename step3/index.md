@@ -21,7 +21,7 @@ Learn how to deploy a simple web application on Azure.
    - **Resource group:** Choose the resource group you created earlier (`rg-uk-south-yourinitials`).
    - **Name:** Choose a unique name for your app.
    - **Region:** Ensure it is set to "UK South".
-   - **Runtime stack:** Select a runtime stack for your app (e.g., Node.js, .NET, Python).
+   - **Runtime stack:** Select Python 3.12.
    - **Operating System:** Choose your preferred operating system.
 
 4. **Configure the hosting plan:**
