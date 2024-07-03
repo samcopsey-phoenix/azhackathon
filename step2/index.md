@@ -1,17 +1,24 @@
-# Creating an Azure Account
+# Creating an Azure User Account
 
 ## Objective:
-Get hands-on experience with Azure by setting up an account.
+Get hands-on experience with Azure by setting up a user account.
 
 ## Steps:
 
-1. **Go to the [Azure website](https://azure.microsoft.com) and click on "Start free".**
-   - If you don't have a Microsoft account, create one by following the on-screen instructions.
+1. **Go to the [Azure Portal](https://portal.azure.com) and sign in with your account provide by the proctor.**
 
-2. **Sign in with your Microsoft account.**
-   - Enter your personal details and payment information. Don't worry, you won't be charged unless you exceed the free tier limits.
+2. **Use the search menu to find and go to Entra ID.**
+   - From the left hand menu click Users
 
-3. **Verify your identity via phone and email.**
+   ![Entra ID](../pics/entrahomepage.png)
+
+3. **Click New User and then Create new user**
+    - Give your user a name and a display name 
+    - Click next and fill in as many fields as you want 
+    - On the assignments page leave it blank and click next 
+    - At Review + create click create
+
+    ![New User0](../pics/newusers.png)
 
 4. **Access the Azure portal.**
    - You will be redirected to the Azure portal dashboard where you can start exploring Azure services.
