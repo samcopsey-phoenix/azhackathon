@@ -22,6 +22,7 @@ Git is a version control system that helps you track changes to your code and co
        ```powershell
        winget install -e --id Python.Python.3.12
        winget install -e --id Git.Git
+       winget install -e --id Microsoft.AzureCLI
        ```
 
 3. **Clone the sample application:**
