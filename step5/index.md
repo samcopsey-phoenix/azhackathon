@@ -95,11 +95,17 @@ A Hub and Spoke network topology is a common network architecture where the hub 
    - Click on "Create Bastion".
 
 2. **Fill in the details:**
-   - **Name:** Use a name like `bastion-hub-yourinitials`.
+   - **Name:** Use a name like `bas-hub-yourinitials`.
    - **Resource Group:** Select the resource group `rg-hub-spoke-yourinitials`.
    - **Virtual Network:** Select `vnet-hub-yourinitials`.
-   - **Subnet:** Create a new subnet named `AzureBastionSubnet` with the address range `10.0.1.0/24`.
-   - **Public IP Address:** Create a new public IP address named `bastion-ip-yourinitials`.
+   - **Subnet:** Create a new subnet named `AzureBastionSubnet`.
+      - Click "Manage subnet confguration"
+      ![App Services](../pics/subnet1.png)
+      - Click "+ Subnet" at the top of the screen
+      - Unfurl the Subnet purpose and select "Azure Bastion"
+      ![App Services](../pics/subnet2.png)
+      - Click the "X" in the top right of the screen to go back to your create Bastion screen
+   - **Public IP Address:** Create a new public IP address named `bas-pip-yourinitials`.
    - Click "Review + Create" and then "Create".
 
 ### Step 4: Connect to the VM using Bastion
