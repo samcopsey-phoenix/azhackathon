@@ -56,8 +56,9 @@ You can stream your applications logs directly to the CLI by following these ste
 
 2. Run the following command to strat streaming the logs:
     ```powershell
-     az webapp log tail --name $APP_SERVICE_NAME --resource-group $RESOURCE_GROUP_NAME
+     az webapp log tail --name <webapp-name> --resource-group <resource-group-name>
     ```
+    - Replace `<your-app-name>` with the name of your web app and `<your-resource-group>` with the name of your resource group.
     - Now try interacting with your webapp to see the logs entries start streaming. Try refreshing the page and entering and submitting your name and seeing what happens.
 
 ## Helpful Resources:
