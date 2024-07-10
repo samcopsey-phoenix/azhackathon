@@ -28,11 +28,7 @@ Learn how to deploy a simple web application on Azure.
    - Choose a hosting plan (Select Free for this exercise).
    - Click "Review + Create" and then "Create".
 
-5. **Deploy a sample web application:**
-   - Use Azure’s quickstart templates to deploy a sample web app.
-   - Review the settings and click "Create".
-
-6. **Access and test the deployed web app:**
+5. **Access and test the deployed web app:**
    - Once deployment is complete, go to the URL provided by Azure to see your running web app.
 
 ![Azure Web App](../pics/web2.png)
