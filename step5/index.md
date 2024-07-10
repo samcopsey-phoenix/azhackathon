@@ -111,7 +111,7 @@ A Hub and Spoke network topology is a common network architecture where the hub 
 ### Step 4: Connect to the VM using Bastion
 
 1. **Navigate to "Virtual Machines" and select the VM created in the spoke network.**
-   - Under "Operations," select "Bastion" and click "Use Bastion".
+   - Under "Connect," select "Bastion" and click "Use Bastion".
 
 2. **Connect to the VM:**
    - Enter the username and password you configured for the VM.
