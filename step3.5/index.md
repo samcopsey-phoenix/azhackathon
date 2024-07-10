@@ -20,9 +20,9 @@ Git is a version control system that helps you track changes to your code and co
      - Open PowerShell as an administrator.
      - Run the following commands to install Python and Git:
        ```powershell
-       winget install -e --id Python.Python.3.12
-       winget install -e --id Git.Git
-       winget install -e --id Microsoft.AzureCLI
+        winget install -e --id Python.Python.3.12
+        winget install -e --id Git.Git
+        winget install -e --id Microsoft.AzureCLI
        ```
 
 3. **Clone the sample application:**
@@ -38,12 +38,27 @@ Git is a version control system that helps you track changes to your code and co
    - Open a terminal or command prompt in the root of your project folder.
    - Run the following commands to deploy the app:
      ```bash
-     az webapp up --name <your-app-name> --resource-group <your-resource-group> --runtime "PYTHON|3.8"
+     az webapp deploy --resource-group <resource-group-name> --name <webapp-name> --src-path .
      ```
    - Replace `<your-app-name>` with the name of your web app and `<your-resource-group>` with the name of your resource group.
 
 5. **Access your deployed app:**
    - Once the deployment is complete, you can access your web application by navigating to the URL provided by Azure.
+
+#### Bonus Step
+You can stream your applications logs directly to the CLI by following these steps. Log streaming can be extermely useful for your development stage to see what your application is doing and it can also help you troubleshoot any issues the application may be experiencing
+
+1. Using your open AzCLI instance run the following command:
+    ```powershell
+     az webapp log config --web-server-logging 'filesystem' --name <webapp-name> --resource-group <resource-group-name>
+    ```
+    - Replace `<your-app-name>` with the name of your web app and `<your-resource-group>` with the name of your resource group.
+
+2. Run the following command to strat streaming the logs:
+    ```powershell
+     az webapp log tail --name $APP_SERVICE_NAME --resource-group $RESOURCE_GROUP_NAME
+    ```
+    - Now try interacting with your webapp to see the logs entries start streaming. Try refreshing the page and entering and submitting your name and seeing what happens.
 
 ## Helpful Resources:
 - [Azure Documentation](https://docs.microsoft.com/en-us/azure/)
