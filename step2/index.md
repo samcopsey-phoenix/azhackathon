@@ -43,14 +43,14 @@ Learn how to create a new user in Entra ID using PowerShell.
 3. **Create a new user:**
     - Use the following script to create a new user. Replace the placeholder values with the actual user details.
     ```powershell
-    $PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
-    $PasswordProfile.Password = "YourSecurePassword123"
+        $PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+        $PasswordProfile.Password = "YourSecurePassword123"
 
-    New-AzureADUser -DisplayName "John Doe" `
-                    -PasswordProfile $PasswordProfile `
-                    -UserPrincipalName "johndoe@yourdomain.onmicrosoft.com" `
-                    -AccountEnabled $true `
-                    -MailNickName "johndoe"
+        New-AzureADUser -DisplayName "John Doe" `
+                        -PasswordProfile $PasswordProfile `
+                        -UserPrincipalName "johndoe@yourdomain.onmicrosoft.com" `
+                        -AccountEnabled $true `
+                        -MailNickName "johndoe"
     ```
 
     - Replace the following values:
