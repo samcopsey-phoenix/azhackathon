@@ -15,6 +15,8 @@ Networking in the context of cloud computing involves connecting different resou
 ## What is a Hub and Spoke Network?
 A Hub and Spoke network topology is a common network architecture where the hub acts as a central point of connectivity and control. The spokes are individual VNets that connect to the hub, but not to each other. This setup helps manage and secure network traffic effectively.
 
+![App Services](../pics/hubandspoke.png)
+
 ### Hub and Spoke Network Components:
 - **Hub Network:** The central VNet that typically contains shared resources and services like a VPN gateway or Azure Bastion.
 - **Spoke Network:** VNets that are connected to the hub VNet via peering. These contain resources like VMs that need to communicate with the hub.
