@@ -30,19 +30,37 @@ Git is a version control system that helps you track changes to your code and co
    - Run the following command to clone the sample application from GitHub:
      ```bash
      git clone https://github.com/Azure-Samples/msdocs-python-django-webapp-quickstart
-     cd djangoapp
+     cd msdocs-python-django-webapp-quickstart
      ```
 
-4. **Deploy the sample application to Azure:**
+4. **Create a virtual environment on your local machine for the app to run**
+   -Run the following commands 
+      ```bash 
+      py -m venv .venv
+      .venv\scripts\activate
+      ```
+   - Once the above has ran, your command line should now begin with (.venv), verifying you have intiialized the virtual environment.
+
+5. **Deploy the application on your local machine**
+   - Run the following commands to deploy the application on your local machine
+      ```bash
+      pip install -r requirments.txt
+      python manage.py runserver
+      ```
+   - Your app is now deployed to your local machine, find the output "Starting development server at https://localhost:8000", copy this URL and browse to it.
+   - Once you have browed to this, you should hit the "Welcome to Azure" webpage, type something in the box and refer back to you command prompt to see the traffic being processed.
+
+6. **Deploy the sample application to Azure:**
    - Use the Azure CLI to deploy your application.
    - Open a terminal or command prompt in the root of your project folder.
    - Run the following commands to deploy the app:
      ```bash
+     az login 
      az webapp deploy --resource-group <resource-group-name> --name <webapp-name> --src-path .
      ```
    - Replace `<your-app-name>` with the name of your web app and `<your-resource-group>` with the name of your resource group.
 
-5. **Access your deployed app:**
+7. **Access your deployed app:**
    - Once the deployment is complete, you can access your web application by navigating to the URL provided by Azure.
 
 #### Bonus Step
